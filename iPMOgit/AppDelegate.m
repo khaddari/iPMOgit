@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  iPMOgit
 //
-//  Created by Ayoub Korkot on 11/07/2013.
+//  Created by Nabil El KHADDARI on 11/07/2013.
 //  Copyright (c) 2013 Majjane. All rights reserved.
 //
 
