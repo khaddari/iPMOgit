@@ -18,8 +18,6 @@
 		C12C5DB1178EC5BB004640E9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C12C5DB0178EC5BB004640E9 /* Default@2x.png */; };
 		C12C5DB3178EC5BB004640E9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C12C5DB2178EC5BB004640E9 /* Default-568h@2x.png */; };
 		C12C5DB6178EC5BB004640E9 /* iPMOgit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C12C5DB4178EC5BB004640E9 /* iPMOgit.xcdatamodeld */; };
-		C12C5DC9178EDEF4004640E9 /* fichenv.png in Resources */ = {isa = PBXBuildFile; fileRef = C12C5DC4178EDEF4004640E9 /* fichenv.png */; };
-		C12C5DCA178EDEF4004640E9 /* fichenv@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C12C5DC5178EDEF4004640E9 /* fichenv@2x.png */; };
 		C12C5DCB178EDEF4004640E9 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C12C5DC6178EDEF4004640E9 /* icon.png */; };
 		C12C5DCC178EDEF4004640E9 /* pub.png in Resources */ = {isa = PBXBuildFile; fileRef = C12C5DC7178EDEF4004640E9 /* pub.png */; };
 		C12C5DCD178EDEF4004640E9 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = C12C5DC8178EDEF4004640E9 /* splash.png */; };
@@ -60,7 +58,6 @@
 		C12C5E52178EDFBC004640E9 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12C5E4E178EDFBC004640E9 /* CoreMedia.framework */; };
 		C12C5E53178EDFBC004640E9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12C5E4F178EDFBC004640E9 /* QuartzCore.framework */; };
 		C12C5E59178EDFED004640E9 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C12C5E58178EDFED004640E9 /* libiconv.dylib */; };
-		C12C5E5B178EE004004640E9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12C5E5A178EE004004640E9 /* SenTestingKit.framework */; };
 		C12C5E5D178EE019004640E9 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12C5E5C178EE019004640E9 /* CoreVideo.framework */; };
 /* End PBXBuildFile section */
 
@@ -80,8 +77,6 @@
 		C12C5DB0178EC5BB004640E9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C12C5DB2178EC5BB004640E9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C12C5DB5178EC5BB004640E9 /* iPMOgit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iPMOgit.xcdatamodel; sourceTree = "<group>"; };
-		C12C5DC4178EDEF4004640E9 /* fichenv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fichenv.png; sourceTree = "<group>"; };
-		C12C5DC5178EDEF4004640E9 /* fichenv@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fichenv@2x.png"; sourceTree = "<group>"; };
 		C12C5DC6178EDEF4004640E9 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		C12C5DC7178EDEF4004640E9 /* pub.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pub.png; sourceTree = "<group>"; };
 		C12C5DC8178EDEF4004640E9 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
@@ -171,7 +166,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C12C5E5D178EE019004640E9 /* CoreVideo.framework in Frameworks */,
-				C12C5E5B178EE004004640E9 /* SenTestingKit.framework in Frameworks */,
 				C12C5E59178EDFED004640E9 /* libiconv.dylib in Frameworks */,
 				C12C5E50178EDFBC004640E9 /* Accelerate.framework in Frameworks */,
 				C12C5E51178EDFBC004640E9 /* AVFoundation.framework in Frameworks */,
@@ -191,9 +185,6 @@
 		C12C5D8B178EC5BB004640E9 = {
 			isa = PBXGroup;
 			children = (
-				C12C5E5C178EE019004640E9 /* CoreVideo.framework */,
-				C12C5E5A178EE004004640E9 /* SenTestingKit.framework */,
-				C12C5E58178EDFED004640E9 /* libiconv.dylib */,
 				C12C5DA2178EC5BB004640E9 /* iPMOgit */,
 				C12C5D99178EC5BB004640E9 /* Frameworks */,
 				C12C5D97178EC5BB004640E9 /* Products */,
@@ -211,6 +202,9 @@
 		C12C5D99178EC5BB004640E9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C12C5E5C178EE019004640E9 /* CoreVideo.framework */,
+				C12C5E5A178EE004004640E9 /* SenTestingKit.framework */,
+				C12C5E58178EDFED004640E9 /* libiconv.dylib */,
 				C12C5E4C178EDFBC004640E9 /* Accelerate.framework */,
 				C12C5E4D178EDFBC004640E9 /* AVFoundation.framework */,
 				C12C5E4E178EDFBC004640E9 /* CoreMedia.framework */,
@@ -226,9 +220,9 @@
 		C12C5DA2178EC5BB004640E9 /* iPMOgit */ = {
 			isa = PBXGroup;
 			children = (
+				C12C5DC2178EDEF4004640E9 /* Ressources */,
 				C12C5DCE178EDF70004640E9 /* lib */,
 				C12C5E06178EDF70004640E9 /* UIProject */,
-				C12C5DC2178EDEF4004640E9 /* Ressources */,
 				C12C5DAB178EC5BB004640E9 /* AppDelegate.h */,
 				C12C5DAC178EC5BB004640E9 /* AppDelegate.m */,
 				C12C5DB4178EC5BB004640E9 /* iPMOgit.xcdatamodeld */,
@@ -262,8 +256,6 @@
 		C12C5DC3178EDEF4004640E9 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				C12C5DC4178EDEF4004640E9 /* fichenv.png */,
-				C12C5DC5178EDEF4004640E9 /* fichenv@2x.png */,
 				C12C5DC6178EDEF4004640E9 /* icon.png */,
 				C12C5DC7178EDEF4004640E9 /* pub.png */,
 				C12C5DC8178EDEF4004640E9 /* splash.png */,
@@ -579,8 +571,6 @@
 				C12C5DAF178EC5BB004640E9 /* Default.png in Resources */,
 				C12C5DB1178EC5BB004640E9 /* Default@2x.png in Resources */,
 				C12C5DB3178EC5BB004640E9 /* Default-568h@2x.png in Resources */,
-				C12C5DC9178EDEF4004640E9 /* fichenv.png in Resources */,
-				C12C5DCA178EDEF4004640E9 /* fichenv@2x.png in Resources */,
 				C12C5DCB178EDEF4004640E9 /* icon.png in Resources */,
 				C12C5DCC178EDEF4004640E9 /* pub.png in Resources */,
 				C12C5DCD178EDEF4004640E9 /* splash.png in Resources */,
