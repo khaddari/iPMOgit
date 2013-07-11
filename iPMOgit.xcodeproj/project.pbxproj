@@ -55,6 +55,13 @@
 		C12C5E49178EDF70004640E9 /* ViewScan.xib in Resources */ = {isa = PBXBuildFile; fileRef = C12C5E27178EDF70004640E9 /* ViewScan.xib */; };
 		C12C5E4A178EDF70004640E9 /* ViewVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = C12C5E2A178EDF70004640E9 /* ViewVisitor.m */; };
 		C12C5E4B178EDF70004640E9 /* ViewVisitor.xib in Resources */ = {isa = PBXBuildFile; fileRef = C12C5E2B178EDF70004640E9 /* ViewVisitor.xib */; };
+		C12C5E50178EDFBC004640E9 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12C5E4C178EDFBC004640E9 /* Accelerate.framework */; };
+		C12C5E51178EDFBC004640E9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12C5E4D178EDFBC004640E9 /* AVFoundation.framework */; };
+		C12C5E52178EDFBC004640E9 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12C5E4E178EDFBC004640E9 /* CoreMedia.framework */; };
+		C12C5E53178EDFBC004640E9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12C5E4F178EDFBC004640E9 /* QuartzCore.framework */; };
+		C12C5E59178EDFED004640E9 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C12C5E58178EDFED004640E9 /* libiconv.dylib */; };
+		C12C5E5B178EE004004640E9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12C5E5A178EE004004640E9 /* SenTestingKit.framework */; };
+		C12C5E5D178EE019004640E9 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12C5E5C178EE019004640E9 /* CoreVideo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -149,6 +156,13 @@
 		C12C5E29178EDF70004640E9 /* ViewVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewVisitor.h; sourceTree = "<group>"; };
 		C12C5E2A178EDF70004640E9 /* ViewVisitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewVisitor.m; sourceTree = "<group>"; };
 		C12C5E2B178EDF70004640E9 /* ViewVisitor.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewVisitor.xib; sourceTree = "<group>"; };
+		C12C5E4C178EDFBC004640E9 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		C12C5E4D178EDFBC004640E9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C12C5E4E178EDFBC004640E9 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		C12C5E4F178EDFBC004640E9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C12C5E58178EDFED004640E9 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		C12C5E5A178EE004004640E9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C12C5E5C178EE019004640E9 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,10 +170,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C12C5E5D178EE019004640E9 /* CoreVideo.framework in Frameworks */,
+				C12C5E5B178EE004004640E9 /* SenTestingKit.framework in Frameworks */,
+				C12C5E59178EDFED004640E9 /* libiconv.dylib in Frameworks */,
+				C12C5E50178EDFBC004640E9 /* Accelerate.framework in Frameworks */,
+				C12C5E51178EDFBC004640E9 /* AVFoundation.framework in Frameworks */,
+				C12C5E52178EDFBC004640E9 /* CoreMedia.framework in Frameworks */,
+				C12C5E53178EDFBC004640E9 /* QuartzCore.framework in Frameworks */,
+				C12C5DA1178EC5BB004640E9 /* CoreData.framework in Frameworks */,
 				C12C5D9B178EC5BB004640E9 /* UIKit.framework in Frameworks */,
 				C12C5D9D178EC5BB004640E9 /* Foundation.framework in Frameworks */,
 				C12C5D9F178EC5BB004640E9 /* CoreGraphics.framework in Frameworks */,
-				C12C5DA1178EC5BB004640E9 /* CoreData.framework in Frameworks */,
 				C12C5E35178EDF70004640E9 /* libzbar.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -170,6 +191,9 @@
 		C12C5D8B178EC5BB004640E9 = {
 			isa = PBXGroup;
 			children = (
+				C12C5E5C178EE019004640E9 /* CoreVideo.framework */,
+				C12C5E5A178EE004004640E9 /* SenTestingKit.framework */,
+				C12C5E58178EDFED004640E9 /* libiconv.dylib */,
 				C12C5DA2178EC5BB004640E9 /* iPMOgit */,
 				C12C5D99178EC5BB004640E9 /* Frameworks */,
 				C12C5D97178EC5BB004640E9 /* Products */,
@@ -187,6 +211,10 @@
 		C12C5D99178EC5BB004640E9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C12C5E4C178EDFBC004640E9 /* Accelerate.framework */,
+				C12C5E4D178EDFBC004640E9 /* AVFoundation.framework */,
+				C12C5E4E178EDFBC004640E9 /* CoreMedia.framework */,
+				C12C5E4F178EDFBC004640E9 /* QuartzCore.framework */,
 				C12C5D9A178EC5BB004640E9 /* UIKit.framework */,
 				C12C5D9C178EC5BB004640E9 /* Foundation.framework */,
 				C12C5D9E178EC5BB004640E9 /* CoreGraphics.framework */,
@@ -668,6 +696,10 @@
 		C12C5DBA178EC5BB004640E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iPMOgit/iPMOgit-Prefix.pch";
 				INFOPLIST_FILE = "iPMOgit/iPMOgit-Info.plist";
@@ -683,6 +715,10 @@
 		C12C5DBB178EC5BB004640E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iPMOgit/iPMOgit-Prefix.pch";
 				INFOPLIST_FILE = "iPMOgit/iPMOgit-Info.plist";
