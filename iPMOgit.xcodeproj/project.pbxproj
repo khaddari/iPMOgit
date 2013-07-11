@@ -18,6 +18,11 @@
 		C12C5DB1178EC5BB004640E9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C12C5DB0178EC5BB004640E9 /* Default@2x.png */; };
 		C12C5DB3178EC5BB004640E9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C12C5DB2178EC5BB004640E9 /* Default-568h@2x.png */; };
 		C12C5DB6178EC5BB004640E9 /* iPMOgit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C12C5DB4178EC5BB004640E9 /* iPMOgit.xcdatamodeld */; };
+		C12C5DC9178EDEF4004640E9 /* fichenv.png in Resources */ = {isa = PBXBuildFile; fileRef = C12C5DC4178EDEF4004640E9 /* fichenv.png */; };
+		C12C5DCA178EDEF4004640E9 /* fichenv@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C12C5DC5178EDEF4004640E9 /* fichenv@2x.png */; };
+		C12C5DCB178EDEF4004640E9 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C12C5DC6178EDEF4004640E9 /* icon.png */; };
+		C12C5DCC178EDEF4004640E9 /* pub.png in Resources */ = {isa = PBXBuildFile; fileRef = C12C5DC7178EDEF4004640E9 /* pub.png */; };
+		C12C5DCD178EDEF4004640E9 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = C12C5DC8178EDEF4004640E9 /* splash.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +41,11 @@
 		C12C5DB0178EC5BB004640E9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C12C5DB2178EC5BB004640E9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C12C5DB5178EC5BB004640E9 /* iPMOgit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iPMOgit.xcdatamodel; sourceTree = "<group>"; };
+		C12C5DC4178EDEF4004640E9 /* fichenv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fichenv.png; sourceTree = "<group>"; };
+		C12C5DC5178EDEF4004640E9 /* fichenv@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fichenv@2x.png"; sourceTree = "<group>"; };
+		C12C5DC6178EDEF4004640E9 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		C12C5DC7178EDEF4004640E9 /* pub.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pub.png; sourceTree = "<group>"; };
+		C12C5DC8178EDEF4004640E9 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +94,7 @@
 		C12C5DA2178EC5BB004640E9 /* iPMOgit */ = {
 			isa = PBXGroup;
 			children = (
+				C12C5DC2178EDEF4004640E9 /* Ressources */,
 				C12C5DAB178EC5BB004640E9 /* AppDelegate.h */,
 				C12C5DAC178EC5BB004640E9 /* AppDelegate.m */,
 				C12C5DB4178EC5BB004640E9 /* iPMOgit.xcdatamodeld */,
@@ -104,6 +115,26 @@
 				C12C5DB2178EC5BB004640E9 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C12C5DC2178EDEF4004640E9 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				C12C5DC3178EDEF4004640E9 /* images */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		C12C5DC3178EDEF4004640E9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C12C5DC4178EDEF4004640E9 /* fichenv.png */,
+				C12C5DC5178EDEF4004640E9 /* fichenv@2x.png */,
+				C12C5DC6178EDEF4004640E9 /* icon.png */,
+				C12C5DC7178EDEF4004640E9 /* pub.png */,
+				C12C5DC8178EDEF4004640E9 /* splash.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +192,11 @@
 				C12C5DAF178EC5BB004640E9 /* Default.png in Resources */,
 				C12C5DB1178EC5BB004640E9 /* Default@2x.png in Resources */,
 				C12C5DB3178EC5BB004640E9 /* Default-568h@2x.png in Resources */,
+				C12C5DC9178EDEF4004640E9 /* fichenv.png in Resources */,
+				C12C5DCA178EDEF4004640E9 /* fichenv@2x.png in Resources */,
+				C12C5DCB178EDEF4004640E9 /* icon.png in Resources */,
+				C12C5DCC178EDEF4004640E9 /* pub.png in Resources */,
+				C12C5DCD178EDEF4004640E9 /* splash.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
