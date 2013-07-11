@@ -18,8 +18,6 @@
 		C12C5DB1178EC5BB004640E9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C12C5DB0178EC5BB004640E9 /* Default@2x.png */; };
 		C12C5DB3178EC5BB004640E9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C12C5DB2178EC5BB004640E9 /* Default-568h@2x.png */; };
 		C12C5DB6178EC5BB004640E9 /* iPMOgit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C12C5DB4178EC5BB004640E9 /* iPMOgit.xcdatamodeld */; };
-		C12C5DC0178EDCC7004640E9 /* Spla.m in Sources */ = {isa = PBXBuildFile; fileRef = C12C5DBE178EDCC7004640E9 /* Spla.m */; };
-		C12C5DC1178EDCC7004640E9 /* Spla.xib in Resources */ = {isa = PBXBuildFile; fileRef = C12C5DBF178EDCC7004640E9 /* Spla.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,9 +36,6 @@
 		C12C5DB0178EC5BB004640E9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C12C5DB2178EC5BB004640E9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C12C5DB5178EC5BB004640E9 /* iPMOgit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iPMOgit.xcdatamodel; sourceTree = "<group>"; };
-		C12C5DBD178EDCC7004640E9 /* Spla.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spla.h; sourceTree = "<group>"; };
-		C12C5DBE178EDCC7004640E9 /* Spla.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Spla.m; sourceTree = "<group>"; };
-		C12C5DBF178EDCC7004640E9 /* Spla.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Spla.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +84,6 @@
 		C12C5DA2178EC5BB004640E9 /* iPMOgit */ = {
 			isa = PBXGroup;
 			children = (
-				C12C5DBC178EDCA6004640E9 /* UIProject */,
 				C12C5DAB178EC5BB004640E9 /* AppDelegate.h */,
 				C12C5DAC178EC5BB004640E9 /* AppDelegate.m */,
 				C12C5DB4178EC5BB004640E9 /* iPMOgit.xcdatamodeld */,
@@ -110,16 +104,6 @@
 				C12C5DB2178EC5BB004640E9 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C12C5DBC178EDCA6004640E9 /* UIProject */ = {
-			isa = PBXGroup;
-			children = (
-				C12C5DBD178EDCC7004640E9 /* Spla.h */,
-				C12C5DBE178EDCC7004640E9 /* Spla.m */,
-				C12C5DBF178EDCC7004640E9 /* Spla.xib */,
-			);
-			name = UIProject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,7 +161,6 @@
 				C12C5DAF178EC5BB004640E9 /* Default.png in Resources */,
 				C12C5DB1178EC5BB004640E9 /* Default@2x.png in Resources */,
 				C12C5DB3178EC5BB004640E9 /* Default-568h@2x.png in Resources */,
-				C12C5DC1178EDCC7004640E9 /* Spla.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,7 +174,6 @@
 				C12C5DA9178EC5BB004640E9 /* main.m in Sources */,
 				C12C5DAD178EC5BB004640E9 /* AppDelegate.m in Sources */,
 				C12C5DB6178EC5BB004640E9 /* iPMOgit.xcdatamodeld in Sources */,
-				C12C5DC0178EDCC7004640E9 /* Spla.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
