@@ -35,24 +35,6 @@
 		C12C5E37178EDF70004640E9 /* zbar-help.html in Resources */ = {isa = PBXBuildFile; fileRef = C12C5E03178EDF70004640E9 /* zbar-help.html */; };
 		C12C5E38178EDF70004640E9 /* zbar-helpicons.png in Resources */ = {isa = PBXBuildFile; fileRef = C12C5E04178EDF70004640E9 /* zbar-helpicons.png */; };
 		C12C5E39178EDF70004640E9 /* zbar-samples.png in Resources */ = {isa = PBXBuildFile; fileRef = C12C5E05178EDF70004640E9 /* zbar-samples.png */; };
-		C12C5E3A178EDF70004640E9 /* ViewAccueil.m in Sources */ = {isa = PBXBuildFile; fileRef = C12C5E09178EDF70004640E9 /* ViewAccueil.m */; };
-		C12C5E3B178EDF70004640E9 /* ViewAccueil.xib in Resources */ = {isa = PBXBuildFile; fileRef = C12C5E0A178EDF70004640E9 /* ViewAccueil.xib */; };
-		C12C5E3C178EDF70004640E9 /* CellAccueil.m in Sources */ = {isa = PBXBuildFile; fileRef = C12C5E0E178EDF70004640E9 /* CellAccueil.m */; };
-		C12C5E3D178EDF70004640E9 /* CellAccueil.xib in Resources */ = {isa = PBXBuildFile; fileRef = C12C5E0F178EDF70004640E9 /* CellAccueil.xib */; };
-		C12C5E3E178EDF70004640E9 /* ViewInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C12C5E12178EDF70004640E9 /* ViewInfo.m */; };
-		C12C5E3F178EDF70004640E9 /* ViewInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = C12C5E13178EDF70004640E9 /* ViewInfo.xib */; };
-		C12C5E40178EDF70004640E9 /* ViewInscription.m in Sources */ = {isa = PBXBuildFile; fileRef = C12C5E16178EDF70004640E9 /* ViewInscription.m */; };
-		C12C5E41178EDF70004640E9 /* ViewInscription.xib in Resources */ = {isa = PBXBuildFile; fileRef = C12C5E17178EDF70004640E9 /* ViewInscription.xib */; };
-		C12C5E42178EDF70004640E9 /* ViewPub.m in Sources */ = {isa = PBXBuildFile; fileRef = C12C5E1A178EDF70004640E9 /* ViewPub.m */; };
-		C12C5E43178EDF70004640E9 /* ViewPub.xib in Resources */ = {isa = PBXBuildFile; fileRef = C12C5E1B178EDF70004640E9 /* ViewPub.xib */; };
-		C12C5E44178EDF70004640E9 /* ViewSplash.m in Sources */ = {isa = PBXBuildFile; fileRef = C12C5E1E178EDF70004640E9 /* ViewSplash.m */; };
-		C12C5E45178EDF70004640E9 /* ViewSplash.xib in Resources */ = {isa = PBXBuildFile; fileRef = C12C5E1F178EDF70004640E9 /* ViewSplash.xib */; };
-		C12C5E46178EDF70004640E9 /* ViewUser.m in Sources */ = {isa = PBXBuildFile; fileRef = C12C5E22178EDF70004640E9 /* ViewUser.m */; };
-		C12C5E47178EDF70004640E9 /* ViewUser.xib in Resources */ = {isa = PBXBuildFile; fileRef = C12C5E23178EDF70004640E9 /* ViewUser.xib */; };
-		C12C5E48178EDF70004640E9 /* ViewScan.m in Sources */ = {isa = PBXBuildFile; fileRef = C12C5E26178EDF70004640E9 /* ViewScan.m */; };
-		C12C5E49178EDF70004640E9 /* ViewScan.xib in Resources */ = {isa = PBXBuildFile; fileRef = C12C5E27178EDF70004640E9 /* ViewScan.xib */; };
-		C12C5E4A178EDF70004640E9 /* ViewVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = C12C5E2A178EDF70004640E9 /* ViewVisitor.m */; };
-		C12C5E4B178EDF70004640E9 /* ViewVisitor.xib in Resources */ = {isa = PBXBuildFile; fileRef = C12C5E2B178EDF70004640E9 /* ViewVisitor.xib */; };
 		C12C5E50178EDFBC004640E9 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12C5E4C178EDFBC004640E9 /* Accelerate.framework */; };
 		C12C5E51178EDFBC004640E9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12C5E4D178EDFBC004640E9 /* AVFoundation.framework */; };
 		C12C5E52178EDFBC004640E9 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12C5E4E178EDFBC004640E9 /* CoreMedia.framework */; };
@@ -124,33 +106,6 @@
 		C12C5E03178EDF70004640E9 /* zbar-help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "zbar-help.html"; sourceTree = "<group>"; };
 		C12C5E04178EDF70004640E9 /* zbar-helpicons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-helpicons.png"; sourceTree = "<group>"; };
 		C12C5E05178EDF70004640E9 /* zbar-samples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-samples.png"; sourceTree = "<group>"; };
-		C12C5E08178EDF70004640E9 /* ViewAccueil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewAccueil.h; sourceTree = "<group>"; };
-		C12C5E09178EDF70004640E9 /* ViewAccueil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewAccueil.m; sourceTree = "<group>"; };
-		C12C5E0A178EDF70004640E9 /* ViewAccueil.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewAccueil.xib; sourceTree = "<group>"; };
-		C12C5E0D178EDF70004640E9 /* CellAccueil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellAccueil.h; sourceTree = "<group>"; };
-		C12C5E0E178EDF70004640E9 /* CellAccueil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellAccueil.m; sourceTree = "<group>"; };
-		C12C5E0F178EDF70004640E9 /* CellAccueil.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellAccueil.xib; sourceTree = "<group>"; };
-		C12C5E11178EDF70004640E9 /* ViewInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewInfo.h; sourceTree = "<group>"; };
-		C12C5E12178EDF70004640E9 /* ViewInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewInfo.m; sourceTree = "<group>"; };
-		C12C5E13178EDF70004640E9 /* ViewInfo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewInfo.xib; sourceTree = "<group>"; };
-		C12C5E15178EDF70004640E9 /* ViewInscription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewInscription.h; sourceTree = "<group>"; };
-		C12C5E16178EDF70004640E9 /* ViewInscription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewInscription.m; sourceTree = "<group>"; };
-		C12C5E17178EDF70004640E9 /* ViewInscription.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewInscription.xib; sourceTree = "<group>"; };
-		C12C5E19178EDF70004640E9 /* ViewPub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewPub.h; sourceTree = "<group>"; };
-		C12C5E1A178EDF70004640E9 /* ViewPub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewPub.m; sourceTree = "<group>"; };
-		C12C5E1B178EDF70004640E9 /* ViewPub.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewPub.xib; sourceTree = "<group>"; };
-		C12C5E1D178EDF70004640E9 /* ViewSplash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewSplash.h; sourceTree = "<group>"; };
-		C12C5E1E178EDF70004640E9 /* ViewSplash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewSplash.m; sourceTree = "<group>"; };
-		C12C5E1F178EDF70004640E9 /* ViewSplash.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewSplash.xib; sourceTree = "<group>"; };
-		C12C5E21178EDF70004640E9 /* ViewUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewUser.h; sourceTree = "<group>"; };
-		C12C5E22178EDF70004640E9 /* ViewUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewUser.m; sourceTree = "<group>"; };
-		C12C5E23178EDF70004640E9 /* ViewUser.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewUser.xib; sourceTree = "<group>"; };
-		C12C5E25178EDF70004640E9 /* ViewScan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewScan.h; sourceTree = "<group>"; };
-		C12C5E26178EDF70004640E9 /* ViewScan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewScan.m; sourceTree = "<group>"; };
-		C12C5E27178EDF70004640E9 /* ViewScan.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewScan.xib; sourceTree = "<group>"; };
-		C12C5E29178EDF70004640E9 /* ViewVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewVisitor.h; sourceTree = "<group>"; };
-		C12C5E2A178EDF70004640E9 /* ViewVisitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewVisitor.m; sourceTree = "<group>"; };
-		C12C5E2B178EDF70004640E9 /* ViewVisitor.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewVisitor.xib; sourceTree = "<group>"; };
 		C12C5E4C178EDFBC004640E9 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		C12C5E4D178EDFBC004640E9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		C12C5E4E178EDFBC004640E9 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
@@ -222,7 +177,6 @@
 			children = (
 				C12C5DC2178EDEF4004640E9 /* Ressources */,
 				C12C5DCE178EDF70004640E9 /* lib */,
-				C12C5E06178EDF70004640E9 /* UIProject */,
 				C12C5DAB178EC5BB004640E9 /* AppDelegate.h */,
 				C12C5DAC178EC5BB004640E9 /* AppDelegate.m */,
 				C12C5DB4178EC5BB004640E9 /* iPMOgit.xcdatamodeld */,
@@ -402,120 +356,6 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		C12C5E06178EDF70004640E9 /* UIProject */ = {
-			isa = PBXGroup;
-			children = (
-				C12C5E07178EDF70004640E9 /* Accueil */,
-				C12C5E0B178EDF70004640E9 /* Cell */,
-				C12C5E10178EDF70004640E9 /* Info */,
-				C12C5E14178EDF70004640E9 /* inscription */,
-				C12C5E18178EDF70004640E9 /* Publicite */,
-				C12C5E1C178EDF70004640E9 /* Splash */,
-				C12C5E20178EDF70004640E9 /* User */,
-				C12C5E24178EDF70004640E9 /* ViewScan */,
-				C12C5E28178EDF70004640E9 /* Visitor */,
-			);
-			path = UIProject;
-			sourceTree = "<group>";
-		};
-		C12C5E07178EDF70004640E9 /* Accueil */ = {
-			isa = PBXGroup;
-			children = (
-				C12C5E08178EDF70004640E9 /* ViewAccueil.h */,
-				C12C5E09178EDF70004640E9 /* ViewAccueil.m */,
-				C12C5E0A178EDF70004640E9 /* ViewAccueil.xib */,
-			);
-			path = Accueil;
-			sourceTree = "<group>";
-		};
-		C12C5E0B178EDF70004640E9 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				C12C5E0C178EDF70004640E9 /* CellAccueil */,
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
-		C12C5E0C178EDF70004640E9 /* CellAccueil */ = {
-			isa = PBXGroup;
-			children = (
-				C12C5E0D178EDF70004640E9 /* CellAccueil.h */,
-				C12C5E0E178EDF70004640E9 /* CellAccueil.m */,
-				C12C5E0F178EDF70004640E9 /* CellAccueil.xib */,
-			);
-			path = CellAccueil;
-			sourceTree = "<group>";
-		};
-		C12C5E10178EDF70004640E9 /* Info */ = {
-			isa = PBXGroup;
-			children = (
-				C12C5E11178EDF70004640E9 /* ViewInfo.h */,
-				C12C5E12178EDF70004640E9 /* ViewInfo.m */,
-				C12C5E13178EDF70004640E9 /* ViewInfo.xib */,
-			);
-			path = Info;
-			sourceTree = "<group>";
-		};
-		C12C5E14178EDF70004640E9 /* inscription */ = {
-			isa = PBXGroup;
-			children = (
-				C12C5E15178EDF70004640E9 /* ViewInscription.h */,
-				C12C5E16178EDF70004640E9 /* ViewInscription.m */,
-				C12C5E17178EDF70004640E9 /* ViewInscription.xib */,
-			);
-			path = inscription;
-			sourceTree = "<group>";
-		};
-		C12C5E18178EDF70004640E9 /* Publicite */ = {
-			isa = PBXGroup;
-			children = (
-				C12C5E19178EDF70004640E9 /* ViewPub.h */,
-				C12C5E1A178EDF70004640E9 /* ViewPub.m */,
-				C12C5E1B178EDF70004640E9 /* ViewPub.xib */,
-			);
-			path = Publicite;
-			sourceTree = "<group>";
-		};
-		C12C5E1C178EDF70004640E9 /* Splash */ = {
-			isa = PBXGroup;
-			children = (
-				C12C5E1D178EDF70004640E9 /* ViewSplash.h */,
-				C12C5E1E178EDF70004640E9 /* ViewSplash.m */,
-				C12C5E1F178EDF70004640E9 /* ViewSplash.xib */,
-			);
-			path = Splash;
-			sourceTree = "<group>";
-		};
-		C12C5E20178EDF70004640E9 /* User */ = {
-			isa = PBXGroup;
-			children = (
-				C12C5E21178EDF70004640E9 /* ViewUser.h */,
-				C12C5E22178EDF70004640E9 /* ViewUser.m */,
-				C12C5E23178EDF70004640E9 /* ViewUser.xib */,
-			);
-			path = User;
-			sourceTree = "<group>";
-		};
-		C12C5E24178EDF70004640E9 /* ViewScan */ = {
-			isa = PBXGroup;
-			children = (
-				C12C5E25178EDF70004640E9 /* ViewScan.h */,
-				C12C5E26178EDF70004640E9 /* ViewScan.m */,
-				C12C5E27178EDF70004640E9 /* ViewScan.xib */,
-			);
-			path = ViewScan;
-			sourceTree = "<group>";
-		};
-		C12C5E28178EDF70004640E9 /* Visitor */ = {
-			isa = PBXGroup;
-			children = (
-				C12C5E29178EDF70004640E9 /* ViewVisitor.h */,
-				C12C5E2A178EDF70004640E9 /* ViewVisitor.m */,
-				C12C5E2B178EDF70004640E9 /* ViewVisitor.xib */,
-			);
-			path = Visitor;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -578,15 +418,6 @@
 				C12C5E37178EDF70004640E9 /* zbar-help.html in Resources */,
 				C12C5E38178EDF70004640E9 /* zbar-helpicons.png in Resources */,
 				C12C5E39178EDF70004640E9 /* zbar-samples.png in Resources */,
-				C12C5E3B178EDF70004640E9 /* ViewAccueil.xib in Resources */,
-				C12C5E3D178EDF70004640E9 /* CellAccueil.xib in Resources */,
-				C12C5E3F178EDF70004640E9 /* ViewInfo.xib in Resources */,
-				C12C5E41178EDF70004640E9 /* ViewInscription.xib in Resources */,
-				C12C5E43178EDF70004640E9 /* ViewPub.xib in Resources */,
-				C12C5E45178EDF70004640E9 /* ViewSplash.xib in Resources */,
-				C12C5E47178EDF70004640E9 /* ViewUser.xib in Resources */,
-				C12C5E49178EDF70004640E9 /* ViewScan.xib in Resources */,
-				C12C5E4B178EDF70004640E9 /* ViewVisitor.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -609,15 +440,6 @@
 				C12C5E32178EDF70004640E9 /* SBJsonWriter.m in Sources */,
 				C12C5E33178EDF70004640E9 /* RNBlurModalView.m in Sources */,
 				C12C5E34178EDF70004640E9 /* SDSegmentedControl.m in Sources */,
-				C12C5E3A178EDF70004640E9 /* ViewAccueil.m in Sources */,
-				C12C5E3C178EDF70004640E9 /* CellAccueil.m in Sources */,
-				C12C5E3E178EDF70004640E9 /* ViewInfo.m in Sources */,
-				C12C5E40178EDF70004640E9 /* ViewInscription.m in Sources */,
-				C12C5E42178EDF70004640E9 /* ViewPub.m in Sources */,
-				C12C5E44178EDF70004640E9 /* ViewSplash.m in Sources */,
-				C12C5E46178EDF70004640E9 /* ViewUser.m in Sources */,
-				C12C5E48178EDF70004640E9 /* ViewScan.m in Sources */,
-				C12C5E4A178EDF70004640E9 /* ViewVisitor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
