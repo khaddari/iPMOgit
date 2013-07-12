@@ -24,6 +24,8 @@
 		C12C5E53178EDFBC004640E9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12C5E4F178EDFBC004640E9 /* QuartzCore.framework */; };
 		C12C5E59178EDFED004640E9 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C12C5E58178EDFED004640E9 /* libiconv.dylib */; };
 		C12C5E5D178EE019004640E9 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12C5E5C178EE019004640E9 /* CoreVideo.framework */; };
+		C12C5E6D178FF47B004640E9 /* Splash.m in Sources */ = {isa = PBXBuildFile; fileRef = C12C5E6B178FF47B004640E9 /* Splash.m */; };
+		C12C5E6E178FF47B004640E9 /* Splash.xib in Resources */ = {isa = PBXBuildFile; fileRef = C12C5E6C178FF47B004640E9 /* Splash.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,9 @@
 		C12C5E58178EDFED004640E9 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 		C12C5E5A178EE004004640E9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		C12C5E5C178EE019004640E9 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		C12C5E6A178FF47B004640E9 /* Splash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Splash.h; path = UIProject/Splash/Splash.h; sourceTree = "<group>"; };
+		C12C5E6B178FF47B004640E9 /* Splash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Splash.m; path = UIProject/Splash/Splash.m; sourceTree = "<group>"; };
+		C12C5E6C178FF47B004640E9 /* Splash.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Splash.xib; path = UIProject/Splash/Splash.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +115,7 @@
 		C12C5DA2178EC5BB004640E9 /* iPMOgit */ = {
 			isa = PBXGroup;
 			children = (
+				C12C5E68178FF428004640E9 /* UIProject */,
 				C12C5DAB178EC5BB004640E9 /* AppDelegate.h */,
 				C12C5DAC178EC5BB004640E9 /* AppDelegate.m */,
 				C12C5DB4178EC5BB004640E9 /* iPMOgit.xcdatamodeld */,
@@ -130,6 +136,24 @@
 				C12C5DB2178EC5BB004640E9 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C12C5E68178FF428004640E9 /* UIProject */ = {
+			isa = PBXGroup;
+			children = (
+				C12C5E69178FF456004640E9 /* Splash */,
+			);
+			name = UIProject;
+			sourceTree = "<group>";
+		};
+		C12C5E69178FF456004640E9 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				C12C5E6A178FF47B004640E9 /* Splash.h */,
+				C12C5E6B178FF47B004640E9 /* Splash.m */,
+				C12C5E6C178FF47B004640E9 /* Splash.xib */,
+			);
+			name = Splash;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +211,7 @@
 				C12C5DAF178EC5BB004640E9 /* Default.png in Resources */,
 				C12C5DB1178EC5BB004640E9 /* Default@2x.png in Resources */,
 				C12C5DB3178EC5BB004640E9 /* Default-568h@2x.png in Resources */,
+				C12C5E6E178FF47B004640E9 /* Splash.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +225,7 @@
 				C12C5DA9178EC5BB004640E9 /* main.m in Sources */,
 				C12C5DAD178EC5BB004640E9 /* AppDelegate.m in Sources */,
 				C12C5DB6178EC5BB004640E9 /* iPMOgit.xcdatamodeld in Sources */,
+				C12C5E6D178FF47B004640E9 /* Splash.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
