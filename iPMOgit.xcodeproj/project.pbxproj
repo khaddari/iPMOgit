@@ -26,6 +26,7 @@
 		C12C5E5D178EE019004640E9 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12C5E5C178EE019004640E9 /* CoreVideo.framework */; };
 		C12C5E6D178FF47B004640E9 /* Splash.m in Sources */ = {isa = PBXBuildFile; fileRef = C12C5E6B178FF47B004640E9 /* Splash.m */; };
 		C12C5E6E178FF47B004640E9 /* Splash.xib in Resources */ = {isa = PBXBuildFile; fileRef = C12C5E6C178FF47B004640E9 /* Splash.xib */; };
+		C12C5E70178FF4DC004640E9 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12C5E6F178FF4DC004640E9 /* AdSupport.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		C12C5E6A178FF47B004640E9 /* Splash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Splash.h; path = UIProject/Splash/Splash.h; sourceTree = "<group>"; };
 		C12C5E6B178FF47B004640E9 /* Splash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Splash.m; path = UIProject/Splash/Splash.m; sourceTree = "<group>"; };
 		C12C5E6C178FF47B004640E9 /* Splash.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Splash.xib; path = UIProject/Splash/Splash.xib; sourceTree = "<group>"; };
+		C12C5E6F178FF4DC004640E9 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C12C5E70178FF4DC004640E9 /* AdSupport.framework in Frameworks */,
 				C12C5E5D178EE019004640E9 /* CoreVideo.framework in Frameworks */,
 				C12C5E59178EDFED004640E9 /* libiconv.dylib in Frameworks */,
 				C12C5E50178EDFBC004640E9 /* Accelerate.framework in Frameworks */,
@@ -80,6 +83,7 @@
 		C12C5D8B178EC5BB004640E9 = {
 			isa = PBXGroup;
 			children = (
+				C12C5E6F178FF4DC004640E9 /* AdSupport.framework */,
 				C12C5DA2178EC5BB004640E9 /* iPMOgit */,
 				C12C5D99178EC5BB004640E9 /* Frameworks */,
 				C12C5D97178EC5BB004640E9 /* Products */,
