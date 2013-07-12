@@ -18,23 +18,6 @@
 		C12C5DB1178EC5BB004640E9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C12C5DB0178EC5BB004640E9 /* Default@2x.png */; };
 		C12C5DB3178EC5BB004640E9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C12C5DB2178EC5BB004640E9 /* Default-568h@2x.png */; };
 		C12C5DB6178EC5BB004640E9 /* iPMOgit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C12C5DB4178EC5BB004640E9 /* iPMOgit.xcdatamodeld */; };
-		C12C5DCB178EDEF4004640E9 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C12C5DC6178EDEF4004640E9 /* icon.png */; };
-		C12C5DCC178EDEF4004640E9 /* pub.png in Resources */ = {isa = PBXBuildFile; fileRef = C12C5DC7178EDEF4004640E9 /* pub.png */; };
-		C12C5DCD178EDEF4004640E9 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = C12C5DC8178EDEF4004640E9 /* splash.png */; };
-		C12C5E2C178EDF70004640E9 /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = C12C5DD1178EDF70004640E9 /* Connection.m */; };
-		C12C5E2D178EDF70004640E9 /* Files_Recupration.m in Sources */ = {isa = PBXBuildFile; fileRef = C12C5DD4178EDF70004640E9 /* Files_Recupration.m */; };
-		C12C5E2E178EDF70004640E9 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C12C5DD8178EDF70004640E9 /* NSObject+SBJSON.m */; };
-		C12C5E2F178EDF70004640E9 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C12C5DDA178EDF70004640E9 /* NSString+SBJSON.m */; };
-		C12C5E30178EDF70004640E9 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C12C5DDC178EDF70004640E9 /* SBJsonBase.m */; };
-		C12C5E31178EDF70004640E9 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C12C5DDE178EDF70004640E9 /* SBJsonParser.m */; };
-		C12C5E32178EDF70004640E9 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = C12C5DE0178EDF70004640E9 /* SBJsonWriter.m */; };
-		C12C5E33178EDF70004640E9 /* RNBlurModalView.m in Sources */ = {isa = PBXBuildFile; fileRef = C12C5DE4178EDF70004640E9 /* RNBlurModalView.m */; };
-		C12C5E34178EDF70004640E9 /* SDSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C12C5DE7178EDF70004640E9 /* SDSegmentedControl.m */; };
-		C12C5E35178EDF70004640E9 /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C12C5E00178EDF70004640E9 /* libzbar.a */; };
-		C12C5E36178EDF70004640E9 /* zbar-back.png in Resources */ = {isa = PBXBuildFile; fileRef = C12C5E02178EDF70004640E9 /* zbar-back.png */; };
-		C12C5E37178EDF70004640E9 /* zbar-help.html in Resources */ = {isa = PBXBuildFile; fileRef = C12C5E03178EDF70004640E9 /* zbar-help.html */; };
-		C12C5E38178EDF70004640E9 /* zbar-helpicons.png in Resources */ = {isa = PBXBuildFile; fileRef = C12C5E04178EDF70004640E9 /* zbar-helpicons.png */; };
-		C12C5E39178EDF70004640E9 /* zbar-samples.png in Resources */ = {isa = PBXBuildFile; fileRef = C12C5E05178EDF70004640E9 /* zbar-samples.png */; };
 		C12C5E50178EDFBC004640E9 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12C5E4C178EDFBC004640E9 /* Accelerate.framework */; };
 		C12C5E51178EDFBC004640E9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12C5E4D178EDFBC004640E9 /* AVFoundation.framework */; };
 		C12C5E52178EDFBC004640E9 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12C5E4E178EDFBC004640E9 /* CoreMedia.framework */; };
@@ -59,53 +42,6 @@
 		C12C5DB0178EC5BB004640E9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C12C5DB2178EC5BB004640E9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C12C5DB5178EC5BB004640E9 /* iPMOgit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iPMOgit.xcdatamodel; sourceTree = "<group>"; };
-		C12C5DC6178EDEF4004640E9 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		C12C5DC7178EDEF4004640E9 /* pub.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pub.png; sourceTree = "<group>"; };
-		C12C5DC8178EDEF4004640E9 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
-		C12C5DD0178EDF70004640E9 /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
-		C12C5DD1178EDF70004640E9 /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connection.m; sourceTree = "<group>"; };
-		C12C5DD3178EDF70004640E9 /* Files_Recupration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Files_Recupration.h; sourceTree = "<group>"; };
-		C12C5DD4178EDF70004640E9 /* Files_Recupration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Files_Recupration.m; sourceTree = "<group>"; };
-		C12C5DD6178EDF70004640E9 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
-		C12C5DD7178EDF70004640E9 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
-		C12C5DD8178EDF70004640E9 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
-		C12C5DD9178EDF70004640E9 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
-		C12C5DDA178EDF70004640E9 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
-		C12C5DDB178EDF70004640E9 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
-		C12C5DDC178EDF70004640E9 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
-		C12C5DDD178EDF70004640E9 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
-		C12C5DDE178EDF70004640E9 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
-		C12C5DDF178EDF70004640E9 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
-		C12C5DE0178EDF70004640E9 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
-		C12C5DE3178EDF70004640E9 /* RNBlurModalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBlurModalView.h; sourceTree = "<group>"; };
-		C12C5DE4178EDF70004640E9 /* RNBlurModalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNBlurModalView.m; sourceTree = "<group>"; };
-		C12C5DE6178EDF70004640E9 /* SDSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSegmentedControl.h; sourceTree = "<group>"; };
-		C12C5DE7178EDF70004640E9 /* SDSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSegmentedControl.m; sourceTree = "<group>"; };
-		C12C5DEC178EDF70004640E9 /* Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decoder.h; sourceTree = "<group>"; };
-		C12C5DED178EDF70004640E9 /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
-		C12C5DEE178EDF70004640E9 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
-		C12C5DEF178EDF70004640E9 /* ImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScanner.h; sourceTree = "<group>"; };
-		C12C5DF0178EDF70004640E9 /* Processor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processor.h; sourceTree = "<group>"; };
-		C12C5DF1178EDF70004640E9 /* Scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scanner.h; sourceTree = "<group>"; };
-		C12C5DF2178EDF70004640E9 /* Symbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Symbol.h; sourceTree = "<group>"; };
-		C12C5DF3178EDF70004640E9 /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
-		C12C5DF4178EDF70004640E9 /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
-		C12C5DF5178EDF70004640E9 /* zbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zbar.h; sourceTree = "<group>"; };
-		C12C5DF6178EDF70004640E9 /* ZBarCameraSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCameraSimulator.h; sourceTree = "<group>"; };
-		C12C5DF7178EDF70004640E9 /* ZBarCaptureReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCaptureReader.h; sourceTree = "<group>"; };
-		C12C5DF8178EDF70004640E9 /* ZBarHelpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarHelpController.h; sourceTree = "<group>"; };
-		C12C5DF9178EDF70004640E9 /* ZBarImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImage.h; sourceTree = "<group>"; };
-		C12C5DFA178EDF70004640E9 /* ZBarImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImageScanner.h; sourceTree = "<group>"; };
-		C12C5DFB178EDF70004640E9 /* ZBarReaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderController.h; sourceTree = "<group>"; };
-		C12C5DFC178EDF70004640E9 /* ZBarReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderView.h; sourceTree = "<group>"; };
-		C12C5DFD178EDF70004640E9 /* ZBarReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderViewController.h; sourceTree = "<group>"; };
-		C12C5DFE178EDF70004640E9 /* ZBarSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSDK.h; sourceTree = "<group>"; };
-		C12C5DFF178EDF70004640E9 /* ZBarSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSymbol.h; sourceTree = "<group>"; };
-		C12C5E00178EDF70004640E9 /* libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzbar.a; sourceTree = "<group>"; };
-		C12C5E02178EDF70004640E9 /* zbar-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-back.png"; sourceTree = "<group>"; };
-		C12C5E03178EDF70004640E9 /* zbar-help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "zbar-help.html"; sourceTree = "<group>"; };
-		C12C5E04178EDF70004640E9 /* zbar-helpicons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-helpicons.png"; sourceTree = "<group>"; };
-		C12C5E05178EDF70004640E9 /* zbar-samples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-samples.png"; sourceTree = "<group>"; };
 		C12C5E4C178EDFBC004640E9 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		C12C5E4D178EDFBC004640E9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		C12C5E4E178EDFBC004640E9 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
@@ -130,7 +66,6 @@
 				C12C5D9B178EC5BB004640E9 /* UIKit.framework in Frameworks */,
 				C12C5D9D178EC5BB004640E9 /* Foundation.framework in Frameworks */,
 				C12C5D9F178EC5BB004640E9 /* CoreGraphics.framework in Frameworks */,
-				C12C5E35178EDF70004640E9 /* libzbar.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,8 +110,6 @@
 		C12C5DA2178EC5BB004640E9 /* iPMOgit */ = {
 			isa = PBXGroup;
 			children = (
-				C12C5DC2178EDEF4004640E9 /* Ressources */,
-				C12C5DCE178EDF70004640E9 /* lib */,
 				C12C5DAB178EC5BB004640E9 /* AppDelegate.h */,
 				C12C5DAC178EC5BB004640E9 /* AppDelegate.m */,
 				C12C5DB4178EC5BB004640E9 /* iPMOgit.xcdatamodeld */,
@@ -197,163 +130,6 @@
 				C12C5DB2178EC5BB004640E9 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C12C5DC2178EDEF4004640E9 /* Ressources */ = {
-			isa = PBXGroup;
-			children = (
-				C12C5DC3178EDEF4004640E9 /* images */,
-			);
-			path = Ressources;
-			sourceTree = "<group>";
-		};
-		C12C5DC3178EDEF4004640E9 /* images */ = {
-			isa = PBXGroup;
-			children = (
-				C12C5DC6178EDEF4004640E9 /* icon.png */,
-				C12C5DC7178EDEF4004640E9 /* pub.png */,
-				C12C5DC8178EDEF4004640E9 /* splash.png */,
-			);
-			path = images;
-			sourceTree = "<group>";
-		};
-		C12C5DCE178EDF70004640E9 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				C12C5DCF178EDF70004640E9 /* Connexion */,
-				C12C5DD2178EDF70004640E9 /* Files_Recuperation */,
-				C12C5DD5178EDF70004640E9 /* JSON */,
-				C12C5DE1178EDF70004640E9 /* Network */,
-				C12C5DE2178EDF70004640E9 /* Popup */,
-				C12C5DE5178EDF70004640E9 /* Tab */,
-				C12C5DE8178EDF70004640E9 /* ZBarSDK */,
-			);
-			path = lib;
-			sourceTree = "<group>";
-		};
-		C12C5DCF178EDF70004640E9 /* Connexion */ = {
-			isa = PBXGroup;
-			children = (
-				C12C5DD0178EDF70004640E9 /* Connection.h */,
-				C12C5DD1178EDF70004640E9 /* Connection.m */,
-			);
-			path = Connexion;
-			sourceTree = "<group>";
-		};
-		C12C5DD2178EDF70004640E9 /* Files_Recuperation */ = {
-			isa = PBXGroup;
-			children = (
-				C12C5DD3178EDF70004640E9 /* Files_Recupration.h */,
-				C12C5DD4178EDF70004640E9 /* Files_Recupration.m */,
-			);
-			path = Files_Recuperation;
-			sourceTree = "<group>";
-		};
-		C12C5DD5178EDF70004640E9 /* JSON */ = {
-			isa = PBXGroup;
-			children = (
-				C12C5DD6178EDF70004640E9 /* JSON.h */,
-				C12C5DD7178EDF70004640E9 /* NSObject+SBJSON.h */,
-				C12C5DD8178EDF70004640E9 /* NSObject+SBJSON.m */,
-				C12C5DD9178EDF70004640E9 /* NSString+SBJSON.h */,
-				C12C5DDA178EDF70004640E9 /* NSString+SBJSON.m */,
-				C12C5DDB178EDF70004640E9 /* SBJsonBase.h */,
-				C12C5DDC178EDF70004640E9 /* SBJsonBase.m */,
-				C12C5DDD178EDF70004640E9 /* SBJsonParser.h */,
-				C12C5DDE178EDF70004640E9 /* SBJsonParser.m */,
-				C12C5DDF178EDF70004640E9 /* SBJsonWriter.h */,
-				C12C5DE0178EDF70004640E9 /* SBJsonWriter.m */,
-			);
-			path = JSON;
-			sourceTree = "<group>";
-		};
-		C12C5DE1178EDF70004640E9 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
-		C12C5DE2178EDF70004640E9 /* Popup */ = {
-			isa = PBXGroup;
-			children = (
-				C12C5DE3178EDF70004640E9 /* RNBlurModalView.h */,
-				C12C5DE4178EDF70004640E9 /* RNBlurModalView.m */,
-			);
-			path = Popup;
-			sourceTree = "<group>";
-		};
-		C12C5DE5178EDF70004640E9 /* Tab */ = {
-			isa = PBXGroup;
-			children = (
-				C12C5DE6178EDF70004640E9 /* SDSegmentedControl.h */,
-				C12C5DE7178EDF70004640E9 /* SDSegmentedControl.m */,
-			);
-			path = Tab;
-			sourceTree = "<group>";
-		};
-		C12C5DE8178EDF70004640E9 /* ZBarSDK */ = {
-			isa = PBXGroup;
-			children = (
-				C12C5DE9178EDF70004640E9 /* Headers */,
-				C12C5E00178EDF70004640E9 /* libzbar.a */,
-				C12C5E01178EDF70004640E9 /* Resources */,
-			);
-			path = ZBarSDK;
-			sourceTree = "<group>";
-		};
-		C12C5DE9178EDF70004640E9 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				C12C5DEA178EDF70004640E9 /* ZBarSDK */,
-			);
-			path = Headers;
-			sourceTree = "<group>";
-		};
-		C12C5DEA178EDF70004640E9 /* ZBarSDK */ = {
-			isa = PBXGroup;
-			children = (
-				C12C5DEB178EDF70004640E9 /* zbar */,
-				C12C5DF5178EDF70004640E9 /* zbar.h */,
-				C12C5DF6178EDF70004640E9 /* ZBarCameraSimulator.h */,
-				C12C5DF7178EDF70004640E9 /* ZBarCaptureReader.h */,
-				C12C5DF8178EDF70004640E9 /* ZBarHelpController.h */,
-				C12C5DF9178EDF70004640E9 /* ZBarImage.h */,
-				C12C5DFA178EDF70004640E9 /* ZBarImageScanner.h */,
-				C12C5DFB178EDF70004640E9 /* ZBarReaderController.h */,
-				C12C5DFC178EDF70004640E9 /* ZBarReaderView.h */,
-				C12C5DFD178EDF70004640E9 /* ZBarReaderViewController.h */,
-				C12C5DFE178EDF70004640E9 /* ZBarSDK.h */,
-				C12C5DFF178EDF70004640E9 /* ZBarSymbol.h */,
-			);
-			path = ZBarSDK;
-			sourceTree = "<group>";
-		};
-		C12C5DEB178EDF70004640E9 /* zbar */ = {
-			isa = PBXGroup;
-			children = (
-				C12C5DEC178EDF70004640E9 /* Decoder.h */,
-				C12C5DED178EDF70004640E9 /* Exception.h */,
-				C12C5DEE178EDF70004640E9 /* Image.h */,
-				C12C5DEF178EDF70004640E9 /* ImageScanner.h */,
-				C12C5DF0178EDF70004640E9 /* Processor.h */,
-				C12C5DF1178EDF70004640E9 /* Scanner.h */,
-				C12C5DF2178EDF70004640E9 /* Symbol.h */,
-				C12C5DF3178EDF70004640E9 /* Video.h */,
-				C12C5DF4178EDF70004640E9 /* Window.h */,
-			);
-			path = zbar;
-			sourceTree = "<group>";
-		};
-		C12C5E01178EDF70004640E9 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				C12C5E02178EDF70004640E9 /* zbar-back.png */,
-				C12C5E03178EDF70004640E9 /* zbar-help.html */,
-				C12C5E04178EDF70004640E9 /* zbar-helpicons.png */,
-				C12C5E05178EDF70004640E9 /* zbar-samples.png */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,13 +187,6 @@
 				C12C5DAF178EC5BB004640E9 /* Default.png in Resources */,
 				C12C5DB1178EC5BB004640E9 /* Default@2x.png in Resources */,
 				C12C5DB3178EC5BB004640E9 /* Default-568h@2x.png in Resources */,
-				C12C5DCB178EDEF4004640E9 /* icon.png in Resources */,
-				C12C5DCC178EDEF4004640E9 /* pub.png in Resources */,
-				C12C5DCD178EDEF4004640E9 /* splash.png in Resources */,
-				C12C5E36178EDF70004640E9 /* zbar-back.png in Resources */,
-				C12C5E37178EDF70004640E9 /* zbar-help.html in Resources */,
-				C12C5E38178EDF70004640E9 /* zbar-helpicons.png in Resources */,
-				C12C5E39178EDF70004640E9 /* zbar-samples.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,15 +200,6 @@
 				C12C5DA9178EC5BB004640E9 /* main.m in Sources */,
 				C12C5DAD178EC5BB004640E9 /* AppDelegate.m in Sources */,
 				C12C5DB6178EC5BB004640E9 /* iPMOgit.xcdatamodeld in Sources */,
-				C12C5E2C178EDF70004640E9 /* Connection.m in Sources */,
-				C12C5E2D178EDF70004640E9 /* Files_Recupration.m in Sources */,
-				C12C5E2E178EDF70004640E9 /* NSObject+SBJSON.m in Sources */,
-				C12C5E2F178EDF70004640E9 /* NSString+SBJSON.m in Sources */,
-				C12C5E30178EDF70004640E9 /* SBJsonBase.m in Sources */,
-				C12C5E31178EDF70004640E9 /* SBJsonParser.m in Sources */,
-				C12C5E32178EDF70004640E9 /* SBJsonWriter.m in Sources */,
-				C12C5E33178EDF70004640E9 /* RNBlurModalView.m in Sources */,
-				C12C5E34178EDF70004640E9 /* SDSegmentedControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,6 +322,7 @@
 				C12C5DBB178EC5BB004640E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
